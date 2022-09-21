@@ -1,3 +1,25 @@
 h1 {
   color: blue;
 }
+
+h6 {
+  font-size: 70px;
+  color: green;
+}
+
+.langetekst {
+  color: blue;
+}
+
+#tekstgroen {
+  color: green;
+}
+
+#bruh {
+  color: darkblue;
+  font-weight: bold;
+}
+
+#hello {
+  color: darkgreen;
+}
