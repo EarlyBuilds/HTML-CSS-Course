@@ -1,0 +1,91 @@
+#box1 {
+  position: absolute;
+  border: yellow solid 10px;
+  background-color: yellow;
+  top: 0%;
+  left: 0%;
+  width: 33%;
+  height: 33%;
+}
+
+#box2 {
+  position: absolute;
+  border: red solid 10px;
+  background-color: red;
+  top: 0%;
+  left: 33%;
+  width: 33%;
+  height: 33%;
+}
+
+#box3 {
+  position: absolute;
+  border: darkblue solid 10px;
+  background-color: darkblue;
+  top: 0%;
+  right: 0%;
+  width: 33%;
+  height: 33%;
+}
+
+#box4 {
+  position: absolute;
+  border: darkgreen solid 10px;
+  background-color: darkgreen;
+  top: 33%;
+  left: 0%;
+  right: 0%;
+  width: 33%;
+  height: 33%;
+}
+
+#box5 {
+  position: absolute;
+  border: lightgrey solid 10px;
+  background-color: lightgrey;
+  top: 33%;
+  left: 33%;
+  right: 0%;
+  width: 33%;
+  height: 33%;
+}
+
+#box6 {
+  position: absolute;
+  border: purple solid 10px;
+  background-color: purple;
+  top: 33%;
+  right: 0%;
+  width: 33%;
+  height: 33%;
+}
+
+#box7 {
+  position: absolute;
+  border: grey solid 10px;
+  background-color: grey;
+  bottom: 0%;
+  left: 0%;
+  width: 33%;
+  height: 33%;
+}
+
+#box8 {
+  position: absolute;
+  border: pink solid 10px;
+  background-color: pink;
+  bottom: 0%;
+  right: 33%;
+  width: 33%;
+  height: 33%;
+}
+
+#box9 {
+  position: absolute;
+  border: orange solid 10px;
+  background-color: orange;
+  bottom: 0%;
+  right: 0%;
+  width: 33%;
+  height: 33%;
+}
