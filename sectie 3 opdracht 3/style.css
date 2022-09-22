@@ -27,7 +27,9 @@
   width: 33%;
   height: 33%;
 }
-
+#text {
+  display: inline;
+}
 #box4 {
   position: absolute;
   border: darkgreen solid 10px;
