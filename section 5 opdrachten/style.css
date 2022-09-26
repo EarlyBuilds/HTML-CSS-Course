@@ -1,0 +1,28 @@
+button {
+  margin-right: 10px;
+  width: 100px;
+  height: 25px;
+  border-color: white;
+}
+
+nav {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+}
+
+.colorgreen {
+  background-color: green;
+}
+
+.coloryellow {
+  background-color: yellow;
+}
+
+.colorred {
+  background-color: red;
+}
+
+.colorblue {
+  background-color: blue;
+}
