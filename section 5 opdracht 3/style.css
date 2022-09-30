@@ -1,0 +1,21 @@
+.right {
+  position: absolute;
+  right: 10%;
+  letter-spacing: 10px;
+  left: 60%;
+}
+
+.left {
+  position: absolute;
+  left: 10%;
+  letter-spacing: 10px;
+  right: 50%;
+}
+
+#rightbotttom-text {
+  top: 10%;
+}
+
+#leftbotttom-text {
+  top: 10%;
+}
