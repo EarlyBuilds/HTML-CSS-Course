@@ -10,6 +10,5 @@
 }
 
 #info {
-  position: absolute;
-  right: 50%;
+  align-self: center;
 }
