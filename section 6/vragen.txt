@@ -1,0 +1,5 @@
+Wat zijn media-queries? : met dat kan je vragen stellen over viewport en weten of het bijvoorbeeld op telefoon wordt bekeken.
+Geef een voorbeeld van media-queries? : lees antwoord 1
+Wat betekent “-webkit-background-color: red;”? : kon het antwoord niet vinden op het web
+Wat betekent “-moz-font-size: 2rem”? : font van firefox browser te veranderen.
+je kan dan weten of er problemen zijn.
