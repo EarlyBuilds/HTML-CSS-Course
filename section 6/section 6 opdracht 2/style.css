@@ -1,0 +1,16 @@
+@media screen and (min-width: 400px) {
+  #content {
+    border: black 10px solid;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #content {
+    border: green 10px solid;
+  }
+}
+@media screen and (min-width: 1080px) {
+  #content {
+    border: yellow 10px solid;
+  }
+}
