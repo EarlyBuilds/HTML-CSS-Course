@@ -18,3 +18,17 @@ het is een soort functie waar mee je in css functies mee kan maken
 button:hover
 a:active
 div:hover p
+
+7. Welke kleur heeft de link met de class ‘contact-button-main’ wanneer deze nog niet bezocht
+is?
+
+rood
+
+8. Welke kleur heeft de link met de class ‘contact-button-main’ wanneer deze nog niet bezocht
+is?
+
+zwart
+
+9. Wat doet de property “tekst-align”?
+
+10. Wat is de “active state” van een element.
