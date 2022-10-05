@@ -1,0 +1,20 @@
+1. Leg het verschil uit tussen ‘./Images/photo1.jpg' en '../Images/photo1.jpg'. 
+
+2. Wat is het referentiepunt voor een absoluut gepositioneerd element (“position: absolute”)?
+links boven
+
+3. Wat is “@keyframes” en wat doet het?
+je kan best veel
+
+4. Welke twee eigenschappen (“properties”) kan je gebruiken bij “@keyframes”? Waarom juist
+die twee?
+  from {top: 0px;}
+  to {top: 200px;}
+
+5. Wat is een pseudo-selector?
+het is een soort functie waar mee je in css functies mee kan maken
+
+6. Geef drie voorbeelden van een pseudo-selector.
+button:hover
+a:active
+div:hover p
