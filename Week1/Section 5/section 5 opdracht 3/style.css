@@ -1,0 +1,30 @@
+.cropped {
+  width: 100%; /* width of container */
+  height: 150px; /* height of container */
+  overflow: hidden;
+}
+#info {
+  justify-content: center;
+}
+.cropped img {
+  margin: -60px 0px 0px 0px;
+}
+
+#info {
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+}
+h1 {
+  text-decoration: underline orange 2px;
+}
+
+button {
+  border: orange solid 1px;
+}
+
+input {
+  border: solid orange 1px;
+}
