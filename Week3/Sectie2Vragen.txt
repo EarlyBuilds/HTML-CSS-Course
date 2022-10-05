@@ -1,4 +1,5 @@
 1. Leg het verschil uit tussen ‘./Images/photo1.jpg' en '../Images/photo1.jpg'. 
+eerste is vanaf die punt en tweede is gaat 1 folder omhoog
 
 2. Wat is het referentiepunt voor een absoluut gepositioneerd element (“position: absolute”)?
 links boven
@@ -21,14 +22,14 @@ div:hover p
 
 7. Welke kleur heeft de link met de class ‘contact-button-main’ wanneer deze nog niet bezocht
 is?
-
 rood
 
 8. Welke kleur heeft de link met de class ‘contact-button-main’ wanneer deze nog niet bezocht
 is?
-
 zwart
 
 9. Wat doet de property “tekst-align”?
+kan je text align doen bijvoorbeeld naar links en naar rechts
 
 10. Wat is de “active state” van een element.
+wanneer het link van die button of textbutton actief is in het browser
