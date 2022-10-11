@@ -1,4 +1,85 @@
 <html>
-  <head> </head>
-  <body></body>
+  <head>
+    <title>sus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <h1>Flexbox</h1>
+      <div id="megabox">
+        <aside id="first">
+          <h2>Container Properties</h2>
+          <ol>
+            <li>//Creates a flexbox</li>
+            <li>display: flex;</li>
+          </ol>
+          <ol>
+            <li>//Direction, establishes main-axis</li>
+            <li>
+              flex-direction: row || row-reverse || column || column-reverse
+            </li>
+          </ol>
+          <ol>
+            <li>//To wrap or not to wrap</li>
+            <li>flex-wrap: nowrap || wrap || wrap-reverse</li>
+          </ol>
+          <ol>
+            <li>//Shorthanded (direction wrap)</li>
+            <li>flex-flow: flex-direction flex-wrap</li>
+          </ol>
+          <ol>
+            <li>//Alignment main axis</li>
+            <li>
+              justify-content: flex-start || flex-end || center || space-between
+              || space-around || space-evenly
+            </li>
+          </ol>
+          <ol>
+            <li>//Alignment cross axis</li>
+            <li>
+              align-items: stretch || flex-start || flex-end || center ||
+              baseline
+            </li>
+          </ol>
+          <ol>
+            <li>//Alignment lines within the container</li>
+            <li>
+              align-content: normal || flex-start || flex-end || center ||
+              space-between || space-around || space-evenly || stretch
+            </li>
+          </ol>
+        </aside>
+        <aside id="second">
+          <h2>Item Properties</h2>
+          <ol>
+            <li>//Order of the (flex) html-elements</li>
+            <li>order: integer (default: 0)</li>
+          </ol>
+          <ol>
+            <li>//Ability to grow if necessary</li>
+            <li>flex-grow: int (default: 0)</li>
+          </ol>
+          <ol>
+            <li>//Ability to shrink if necesarry</li>
+            <li>flex-shrink: int (default: 1)</li>
+          </ol>
+          <ol>
+            <li>//Defines default size of the item</li>
+            <li>flex-basis: length || keyword (default: auto)</li>
+          </ol>
+          <ol>
+            <li>//Shorthanded (grow shrink basis)</li>
+            <li>flex: flex-grow flex-shrink flex-basis (default 0 1 auto)</li>
+          </ol>
+          <ol>
+            <li>//Override default alignment form align-items</li>
+            <li>
+              align-self: auto || flex-start || flex-end || center || baseline
+              || stretch
+            </li>
+          </ol>
+        </aside>
+      </div>
+    </center>
+  </body>
 </html>
