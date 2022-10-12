@@ -1,0 +1,8 @@
+.flex-container {
+  border: black 2px solid;
+}
+.flex_child {
+  align-items: center;
+  flex-flow: row;
+  border: black 2px solid;
+}
