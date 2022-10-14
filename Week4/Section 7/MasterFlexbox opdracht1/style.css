@@ -1,0 +1,18 @@
+.flex-container {
+  border: black 2px solid;
+  flex-direction: row;
+  height: 400px;
+  display: flex;
+}
+
+.flex_child {
+  display: flex;
+  border: green 2px solid;
+  margin-right: 1px;
+  padding: 1px;
+  flex-basis: 600px;
+  width: 300px;
+  height: 125;
+  flex-wrap: wrap;
+  text-align: left;
+}
