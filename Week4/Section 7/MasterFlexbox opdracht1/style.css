@@ -1,18 +1,17 @@
 .flex-container {
-  border: black 2px solid;
-  flex-direction: row;
-  height: 400px;
   display: flex;
+  height: 400px;
+  border: black 2px solid;
 }
 
 .flex_child {
   display: flex;
   border: green 2px solid;
-  margin-right: 1px;
-  padding: 1px;
-  flex-basis: 600px;
-  width: 300px;
-  height: 125;
-  flex-wrap: wrap;
-  text-align: left;
+  flex-basis: 20%;
+  viewport-fit: 10px;
+  height: 125px;
+  margin-bottom: 2px;
+}
+.flex-container:nth-child(7) {
+  flex-flow: column;
 }
