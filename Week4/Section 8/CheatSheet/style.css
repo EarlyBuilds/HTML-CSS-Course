@@ -1,0 +1,40 @@
+div {
+  border: 3px dotted black;
+  position: absolute;
+  right: 2%;
+  left: 0%;
+}
+
+#megabox {
+  width: 100%;
+  align-self: center;
+}
+
+li {
+  list-style: none;
+}
+
+#wrapper {
+  width: 500px;
+  border: 1px solid black;
+  overflow: hidden; /* add this to contain floated children */
+}
+#first {
+  width: 45%;
+  float: left; /* add this */
+  border: 1px solid red;
+}
+#second {
+  width: 50%;
+  border: 1px solid green;
+  float: left; /* add this */
+}
+
+li:first-child {
+  background-color: orange;
+  font-size: 20px;
+}
+
+body {
+  background-color: lightgray;
+}
