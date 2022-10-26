@@ -1,9 +1,9 @@
 .flex-container {
   display: flex;
-  height: 400px;
+  /* height: 200px; */
+  flex: 1;
   border: black 2px solid;
   flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 .flex_child {
@@ -11,10 +11,8 @@
   border: green 2px solid;
   flex-basis: 200px;
   height: 20px;
-  margin: 2px;
-  justify-content: space-evenly;
-  text-align: center;
   justify-content: center;
+  justify-items: center;
 }
 
 .flex_child:nth-child(1) {
