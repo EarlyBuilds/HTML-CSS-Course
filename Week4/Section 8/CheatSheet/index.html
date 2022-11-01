@@ -131,23 +131,45 @@
             <li>grid-row-start: line || span (number || name) || auto</li>
           </ol>
           <ol>
-            <li>//Ability to shrink if necesarry</li>
-            <li>flex-shrink: int (default: 1)</li>
+            <li>//Determines the column end of an item within the grid<</li>
+            <li>grid-row-end: line || span (number || name) || auto</li>
           </ol>
           <ol>
-            <li>//Defines default size of the item</li>
-            <li>flex-basis: length || keyword (default: auto)</li>
+            <li>//Determnes the row end of an item within the grid<</li>
+            <li>grid-row-end: line || span (number || name) || auto</li>
           </ol>
           <ol>
-            <li>//Shorthanded (grow shrink basis)</li>
-            <li>flex: flex-grow flex-shrink flex-basis (default 0 1 auto)</li>
+            <li>//Determines the column end of an item within the grid</li>
+            <li>grid-row-end: line || span (number || name) || auto</li>
           </ol>
           <ol>
-            <li>//Override default alignment form align-items</li>
+            <li>//Shorthand for column start and end</li>
+            <li>grid-row: grid-row-start grid-row-end</li>
+          </ol>
+          <ol>
+            <li>//Give a grid area name to grid item</li>
             <li>
-              align-self: auto || flex-start || flex-end || center || baseline
-              || stretch
+              gird-area: name || row-start / column-start / row-end / column-end
             </li>
+          </ol>
+          <ol>
+            <li>
+              //Align a grid-item inside a cell along the row / inline axis
+            </li>
+            <li>justify-self: start || end || center || stretch</li>
+          </ol>
+          <ol>
+            <li>
+              //Align a grid-item inside a cell along the column / block axis
+            </li>
+            <li>justify-self: start || end || center || stretch</li>
+          </ol>
+          <ol>
+            <li>
+              //Align a grid-item inside a cell along the row/ inline and column
+              / block axis
+            </li>
+            <li>place-self: align-self justify-self</li>
           </ol>
         </aside>
       </div>
