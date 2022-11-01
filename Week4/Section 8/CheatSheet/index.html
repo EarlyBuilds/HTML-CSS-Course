@@ -66,16 +66,69 @@
             </li>
             <li>plac-items: align-items / justify-items</li>
           </ol>
+          <ol>
+            <li>
+              //Align the whole grid (container) along the inline / row axis
+            </li>
+            <li>
+              justify-content: start || end || center || stretch || space-around
+              || space-between || space-evenly
+            </li>
+          </ol>
+          <ol>
+            <li>
+              //Align the whole grid (container) along the block / block axis
+            </li>
+            <li>
+              align-content: start || end || center || stretch || space-around
+              || space-betweeen || space-evenly
+            </li>
+          </ol>
+          <ol>
+            <li>
+              //Align the whole grid (container) along the inline and block axis
+              (shorthand)
+            </li>
+            <li>place-content: align-content / justify-content</li>
+          </ol>
+          <ol>
+            <li>
+              //Align the whole grid (container) along the block / block axis
+            </li>
+            <li>
+              align-content: start || end || center || stretch || space-around
+              || space-betweeen || space-evenly
+            </li>
+          </ol>
+          <ol>
+            <li>//specifies the size of any auto-generated grid row</li>
+            <li>gird-auto-row: size (length || percentage || fr)</li>
+          </ol>
+          <ol>
+            <li>//specifies the size of any auto-generated grid column</li>
+            <li>gird-auto-columns: size (length || percentage || fr)</li>
+          </ol>
+          <ol>
+            <li>//seta the algorithm that places the grid-items</li>
+            <li>gird-auto-flow: row || column || dense</li>
+          </ol>
+          <ol>
+            <li>//shorthand for almost every property</li>
+            <li>
+              gird: grid-template-row grid-template-columns grid-template-areas
+              gird-auto-rows gird-auto-columns gird-auto-flow
+            </li>
+          </ol>
         </aside>
         <aside id="second">
           <h2>Item Properties</h2>
           <ol>
-            <li>//Order of the (flex) html-elements</li>
-            <li>order: integer (default: 0)</li>
+            <li>//Determnes the column start of an item within the grid</li>
+            <li>grid-column-start: line || span (number || name) || auto</li>
           </ol>
           <ol>
-            <li>//Ability to grow if necessary</li>
-            <li>flex-grow: int (default: 0)</li>
+            <li>//Determnes the row start of an item within the grid<</li>
+            <li>grid-row-start: line || span (number || name) || auto</li>
           </ol>
           <ol>
             <li>//Ability to shrink if necesarry</li>
