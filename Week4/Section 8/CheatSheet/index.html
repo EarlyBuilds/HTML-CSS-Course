@@ -11,21 +11,23 @@
           <h2>Container Properties</h2>
           <ol>
             <li>//Creates a grid</li>
-            <li>display: flex;</li>
+            <li>display: grid || inlined-grid;</li>
           </ol>
           <ol>
             <li>//creates grid columns</li>
             <li>
-              flex-direction: row || row-reverse || column || column-reverse
+              grid-template-columns: length || percentage || fr || inline-name
             </li>
           </ol>
           <ol>
             <li>//creates grid rows</li>
-            <li>flex-wrap: nowrap || wrap || wrap-reverse</li>
+            <li>
+              grid-template-rows: length || percentage || fr || inline-name
+            </li>
           </ol>
           <ol>
-            <li>//Shorthanded (direction wrap)</li>
-            <li>flex-flow: flex-direction flex-wrap</li>
+            <li>//Creates a grid with specified areas</li>
+            <li>grid-template-area: grid-area-name || none || .</li>
           </ol>
           <ol>
             <li>//Alignment main axis</li>
