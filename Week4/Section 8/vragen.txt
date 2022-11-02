@@ -9,7 +9,8 @@ en css grid is gemaakt voor
 display: grid
 
 4. Beschrijf het verschil tussen een grid-container en een grid-item.
-
+grid-container is conrains alle grid-items
+grid-item gaat in een grid container
 
 5. Wat zijn grid-lines?
 lijnen in een grid vorm
@@ -53,9 +54,11 @@ c. grid-column: start-end 3 / start-end 4;
 d. grid-column: span 2 / start-end 4;
 
 17. Wat is het verschil tussen “implicit grids” en “explicit grids”? Gebruik in je antwoord diverse afbeeldingen.
-
+implicit kan je overal plaatsen
+explicit kan je in een grid plaatsen
 
 18. Wat doet de property “grid-auto-rows”? Gebruik in je antwoord diverse afbeeldingen.
+
 
 
 19. Wat doet “max-content”?
