@@ -4,7 +4,9 @@ div {
   right: 2%;
   left: 0%;
 }
-
+* {
+  font-family: "Courier New", Courier, monospace;
+}
 #megabox {
   width: 100%;
   align-self: center;
@@ -23,6 +25,9 @@ li {
   width: 45%;
   float: left; /* add this */
   border: 1px solid red;
+}
+ol {
+  border: 2px black dotted;
 }
 #second {
   width: 50%;

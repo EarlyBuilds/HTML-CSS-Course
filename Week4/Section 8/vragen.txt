@@ -1,5 +1,8 @@
 1. Waarvoor is CSS Grid een vervanging?
+css grid is nieuw css module en vervangt meeste css dingen.
 2. Beschrijf het verschil tussen CSS Grid en Flexbox.
+flexbox is gemaakt voor layout
+en css grid is gemaakt voor
 3. Hoe maak / creëer je een grid?
 4. Beschrijf het verschil tussen een grid-container en een grid-item.
 5. Wat zijn grid-lines?
