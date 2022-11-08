@@ -2,8 +2,11 @@
   text-align: center;
 }
 #container {
-  border: 5px palevioletred solid;
+  border: 10px palevioletred solid;
   width: 50%;
+  height: 30%;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .child:nth-child(1) {
