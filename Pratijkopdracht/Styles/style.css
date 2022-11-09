@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  background-color: rgba(0, 0, 255, 0.679);
+  flex-wrap: wrap;
+}
+body {
+  background-color: lightblue;
+}
+button {
+  cursor: pointer;
+  width: 100;
+}
+
+.divborder {
+  border: black 2px solid;
+}
+
+.galary {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hometext {
+  width: 40;
+  border: solid black 3px;
+}
+.wraptext {
+  display: flex;
+  flex-wrap: wrap;
+}
+button:hover {
+}

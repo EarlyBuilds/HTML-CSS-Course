@@ -1,0 +1,7 @@
+ik heb Super veel voorgang gemaakt vandaag ik heb navigation bar en alle buttons werkend gekregen.
+ik heb oo een banner erin gezet en alle knoppen brengen naar een werkend page.
+ik heb lorum ipsum gebruikt voor meeste pages voor nu maar dat maakt niet veel uit.
+het contact page heeft placeholder data en zal het ook zo houden omdat het niet er belangerijk is.
+about us is op dit moment leeg maar zal zo snel mogelijk iets erin zetten.
+gallery heeft op dit moment helemaal niks en zal ook zo snel mogelijk iets erin zetten.
+home heeft lorum ipsum tekst zoals ik zei en heeft 2 plaatjes op dit moment.

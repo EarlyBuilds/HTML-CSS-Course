@@ -1,0 +1,24 @@
+/* media queries voor layout */
+@media (min-width: 500px) {
+  .homediv {
+    width: 100%;
+  }
+}
+@media (min-width: 700px) {
+  .homediv {
+    width: 600px;
+  }
+}
+
+.homeimages {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+}
+
+.homeimages {
+  display: flex;
+  justify-content: flex-end;
+}
