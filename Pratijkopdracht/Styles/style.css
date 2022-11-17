@@ -30,7 +30,7 @@ button {
 }
 button:hover {
   animation-name: bounce;
-  animation-timing-function: ease;
+  animation-duration: 4s;
 }
 
 @keyframes bounce {
@@ -38,7 +38,7 @@ button:hover {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-50px);
+    transform: translateY(-5px);
   }
   100% {
     transform: translateY(0);
