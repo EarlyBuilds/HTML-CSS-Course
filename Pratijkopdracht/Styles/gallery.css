@@ -10,19 +10,16 @@
   max-width: 100%;
 }
 
-button:hover {
+img:hover {
   animation-name: imgbounce;
-  animation-duration: 4s;
+  animation-duration: 5s;
 }
 
 @keyframes imgbounce {
   0% {
     transform: translateY(0);
   }
-  50% {
-    transform: translateY(-5px);
-  }
   100% {
-    transform: translateY(0);
+    transform: translateY(-20px);
   }
 }
