@@ -1,0 +1,82 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: 200px 100px 100px 100px;
+}
+.item {
+  border: 1px solid white;
+}
+
+.item--g {
+  grid-column: 3;
+  grid-row: 3 / span 2;
+}
+
+.item--a {
+  grid-column: 1 / span 2;
+}
+
+.item--c {
+  grid-row: 2 / span 2;
+}
+
+.item--d {
+  grid-column: span 2;
+}
+
+.item--f {
+  grid-column: 1 / span 2;
+}
+
+body {
+  background-color: green;
+}
+
+.g {
+  width: 100%;
+}
+
+.A {
+  width: 70%;
+  height: 100px;
+  flex-grow: 1;
+}
+.B {
+  width: 27%;
+  height: 100px;
+}
+
+.C {
+  height: 40px;
+  width: 20%;
+}
+
+.D {
+  height: 40px;
+  width: 76%;
+}
+.colorgreen {
+  background-color: lightgreen;
+}
+
+.coloryellow {
+  background-color: yellow;
+}
+
+.colorred {
+  background-color: red;
+}
+
+.colorblue {
+  background-color: blue;
+}
+
+.seperate {
+  align-self: flex-end;
+}
